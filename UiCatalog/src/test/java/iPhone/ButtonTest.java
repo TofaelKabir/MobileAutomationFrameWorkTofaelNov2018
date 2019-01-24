@@ -19,11 +19,21 @@ Buttons buttons;
     public void navigate()throws InterruptedException{
         UiCatalog ui = PageFactory.initElements(ad, UiCatalog.class);
         ui.getButtonPage();
+        buttons = PageFactory.initElements(ad, Buttons.class);
     }
     @Test
     public void testUIButton() throws InterruptedException {
-        buttons.checkUIButton();
+        //buttons.checkUIButton();
         sleep(2);
     }
-
+    @Test
+    public void clickOnImageButton(){
+        buttons.backgroundImageClick();
+    }
+    @Test
+    public void clickOnbuttonWithImage(){
+        buttons.buttonWithImageClick();
+    }
 }
+
+

@@ -13,7 +13,7 @@
             <class name="iPhone.ButtonTest"/>
             <class name="iPhone.TextFieldsTest"/>
             <class name="iPhone.PickerTest"/>
-            <class name="iPhone.AlertsTest"/>
+            <class name="iPhone.TestAlerts"/>
         </classes>
     </test>
 </suite>
