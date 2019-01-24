@@ -1,7 +1,5 @@
 package iPhone;
 
-import PickersPage.Picker;
-import UiCatalogPage.UiCatalog;
 import common.Base;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;

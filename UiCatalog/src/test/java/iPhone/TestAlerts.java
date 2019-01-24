@@ -1,7 +1,5 @@
 package iPhone;
 
-import AlertsPage.Alerts;
-import UiCatalogPage.UiCatalog;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 

@@ -1,8 +1,5 @@
 package iPhone;
 
-import TextFieldsPage.TextFields;
-import UiCatalogPage.UiCatalog;
-import navigate.NavigateUi;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

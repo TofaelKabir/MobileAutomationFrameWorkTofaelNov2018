@@ -1,17 +1,5 @@
-package UiCatalogPage;
+package iPhone;
 
-import AlertsPage.Alerts;
-import ButtonsPage.Buttons;
-import ControlsPage.Controls;
-import ImgesPage.Images;
-import PickersPage.Picker;
-import SearchBarPage.SearchBar;
-import SegmentsPage.Segments;
-import TextFieldsPage.TextFields;
-import TextViewPage.TextView;
-import ToolbarPage.Toolbar;
-import TransitionsPage.Transitions;
-import WebPage.Web;
 import common.Base;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

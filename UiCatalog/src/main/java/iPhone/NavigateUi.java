@@ -1,4 +1,4 @@
-package navigate;
+package iPhone;
 
 import common.Base;
 import org.openqa.selenium.By;

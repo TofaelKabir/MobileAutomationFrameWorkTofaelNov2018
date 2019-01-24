@@ -1,7 +1,5 @@
 package iPhone;
 
-import SegmentsPage.Segments;
-import UiCatalogPage.UiCatalog;
 import common.Base;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;

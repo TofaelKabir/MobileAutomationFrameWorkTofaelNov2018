@@ -1,4 +1,4 @@
-package uiCatalog;
+package iPhone;
 
 import common.Base;
 import org.openqa.selenium.By;

@@ -1,10 +1,11 @@
-package AlertsPage;
+package iPhone;
 
 import common.Base;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class Alerts extends Base {
+
     @FindBy(xpath = "//XCUIElementTypeApplication[@name=\"UICatalog\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable")
     WebElement alertPageWhole;
     @FindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Secure Text Input\"]")
@@ -58,7 +59,6 @@ public class Alerts extends Base {
     public void checkAlertPageUIAlertViewShowSimple(){
         alertPageUIAlertViewShowSimple.click();
     }
-    public void checkAlertPageUIAlertViewSimpleAction(){
-        alertPageUIAlertViewSimpleAction.click();
+    public void checkAlertPageUIAlertViewSimpleAction(){ alertPageUIAlertViewSimpleAction.click();
     }
 }
