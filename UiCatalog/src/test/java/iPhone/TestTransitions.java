@@ -9,7 +9,7 @@ public class TestTransitions extends Transitions {
     @BeforeMethod
     public void navigate(){
         UiCatalog ui = PageFactory.initElements(ad, UiCatalog.class);
-        ui.getToolbar();
+        ui.getTransitions();
         transitions = PageFactory.initElements(ad, Transitions.class);
     }
     @Test
