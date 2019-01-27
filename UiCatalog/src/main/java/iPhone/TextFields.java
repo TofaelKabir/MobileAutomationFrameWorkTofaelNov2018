@@ -4,46 +4,43 @@ import common.Base;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-/**
- * Created by mrahman on 1/15/17.
- */
-public class TextFields extends Base{
+public class TextFields extends Base {
+
+    @FindBy(xpath = "//XCUIElementTypeApplication[@name=\"UICatalog\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable")
+    WebElement textFieldsWholePage;
+    @FindBy(xpath = "//XCUIElementTypeStaticText[@name=\"UITextField\"]")
+    WebElement uiTextField;
     @FindBy(xpath = "//XCUIElementTypeTextField[@name=\"Normal\"]")
-    WebElement UiTextField;
-    @FindBy(xpath = "//XCUIElementTypeTextField[@name=\"Rounded\"]") WebElement UiTextFieldRounded;
-    @FindBy(xpath = "//XCUIElementTypeSecureTextField[@name=\"Secure\"]") WebElement UiTextFieldSecure;
-    @FindBy(xpath = "//XCUIElementTypeTextField[@name=\"Check\"]") WebElement UiTextFieldLeftView;
+    WebElement uiTextBox;
+    @FindBy(xpath = "//XCUIElementTypeStaticText[@name=\"UITextField Rounded\"]")
+    WebElement roundedTextField;
+    @FindBy(xpath = "//XCUIElementTypeTextField[@name=\"Rounded\"]")
+    WebElement roundedTextBox;
+    @FindBy(xpath = "//XCUIElementTypeStaticText[@name=\"UITextField Secure\"]")
+    WebElement secureTextField;
+    @FindBy(xpath = "//XCUIElementTypeSecureTextField[@name=\"Secure\"]")
+    WebElement secureTextBox;
+    @FindBy(xpath = "//XCUIElementTypeStaticText[@name=\"UITextField (with LeftView)\"]")
+    WebElement uiTextFieldWithLeftView;
+    @FindBy(xpath = "//XCUIElementTypeTextField[@name=\"Check\"]")
+    WebElement uiTextFieldWithLeftViewTextBox;
 
-    public void clickOnUiTextField(){
-        UiTextField.click();
+    public void checkTextFieldsWholePage() { textFieldsWholePage.click();
     }
-    public void clickOnUiTextFieldRounded(){
-        UiTextFieldRounded.click();
+    public void checkUiTextField() { uiTextField.click();
     }
-    public void clickOnUiTextFieldSecure(){
-        UiTextFieldSecure.click();
+    public void checkUiTextBox() { uiTextBox.click();
     }
-    public void clickOnUiTextFieldLeftView(){
-        UiTextFieldLeftView.click();
+    public void checkRoundedTextField() { roundedTextField.click();
     }
-
-    public void inputDataOnUiTextField(){
-        UiTextField.sendKeys("Hello");
+    public void checkRoundedTextBox() { roundedTextBox.click();
     }
-    public void inputDataOnUiTextFieldRounded(){
-        UiTextFieldRounded.sendKeys("Love you Bangladesh");
+    public void checkSecureTextField() { secureTextField.click();
     }
-    public void inputDataOnUiTextFieldSecure(){
-        UiTextFieldSecure.sendKeys("Love you America");
+    public void checkSecureTextBox() { secureTextBox.click();
     }
-    public void inputDataOnUiTextFieldLeftView(){
-        UiTextFieldLeftView.sendKeys("Welcome");
+    public void checkUiTextFieldWithLeftView() { uiTextFieldWithLeftView.click();
     }
-
-    public void inputDataOnAllField(){
-        inputDataOnUiTextField();
-        inputDataOnUiTextFieldRounded();
-        inputDataOnUiTextFieldSecure();
-        inputDataOnUiTextFieldLeftView();
+    public void checkUiTextFieldWithLeftViewTextBox() { uiTextFieldWithLeftViewTextBox.click();
     }
 }

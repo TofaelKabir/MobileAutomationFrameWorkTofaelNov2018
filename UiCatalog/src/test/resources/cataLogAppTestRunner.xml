@@ -11,8 +11,8 @@
     <test name="Go to Home page" preserve-order="true">
         <classes>
             <class name="iPhone.TestButtons"/>
-            <class name="iPhone.TextFieldsTest"/>
-            <class name="iPhone.PickerTest"/>
+            <class name="iPhone.TestTextFields"/>
+            <class name="iPhone.TestPicker"/>
             <class name="iPhone.TestAlerts"/>
         </classes>
     </test>

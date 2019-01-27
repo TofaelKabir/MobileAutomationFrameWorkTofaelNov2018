@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b2bf13c7-516c-4de7-9ed1-3dd7b7ce5209" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/common/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/common/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/common/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/common/Base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/Buttons.java" beforeDir="false" afterPath="$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/Buttons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/Controls.java" beforeDir="false" afterPath="$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/Controls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/TextFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/TextFields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/TextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/TextView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/PickerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TestPicker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TextFieldsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TestTextFields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UiCatalog/src/test/resources/cataLogAppTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UiCatalog/src/test/resources/cataLogAppTestRunner.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,7 +39,7 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="107" />
+          <entry key="java" value="126" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
@@ -44,21 +47,21 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="107" />
+          <entry key="JAVA" value="126" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="31" />
-          <entry key="java" value="2417" />
+          <entry key="dummy" value="39" />
+          <entry key="java" value="2550" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2417" />
-          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="JAVA" value="2550" />
+          <entry key="PLAIN_TEXT" value="39" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -67,10 +70,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/androidPhone/Living.java">
+        <entry file="file://$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TestImages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="24" column="519" selection-start-line="24" selection-start-column="519" selection-end-line="24" selection-end-column="519" />
+            <state relative-caret-position="68">
+              <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TestButtons.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/TextView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,13 +106,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testAndroidPhone/TestLiving.java">
+        <entry file="file://$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TestTextView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+            <state relative-caret-position="238">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TestAlerts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -105,18 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/NYPost/pom.xml" />
-        <option value="$PROJECT_DIR$/UiCatalog/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/UiCatalog/src/main/java/ButtonsPage/Buttons.java" />
-        <option value="$PROJECT_DIR$/UiCatalog/src/main/java/SegmentsPage/Segments.java" />
-        <option value="$PROJECT_DIR$/UiCatalog/src/main/java/TextFieldsPage/TextFields.java" />
-        <option value="$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/SegmentTest.java" />
-        <option value="$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TextFieldsTest.java" />
-        <option value="$PROJECT_DIR$/UiCatalog/src/test/java/uiCatalog/HomePage.java" />
-        <option value="$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/AlertsTest.java" />
-        <option value="$PROJECT_DIR$/UiCatalog/src/main/java/AlertsPage/Alerts.java" />
-        <option value="$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TestAlerts.java" />
         <option value="$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/Alerts.java" />
         <option value="$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/ButtonTest.java" />
         <option value="$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TestButtons.java" />
@@ -156,6 +180,18 @@
         <option value="$PROJECT_DIR$/NYPost/src/test/java/testAndroidPhone/TestFashion.java" />
         <option value="$PROJECT_DIR$/NYPost/src/main/java/androidPhone/Living.java" />
         <option value="$PROJECT_DIR$/NYPost/src/test/java/testAndroidPhone/TestLiving.java" />
+        <option value="$PROJECT_DIR$/NYPost/src/main/java/androidPhone/Media.java" />
+        <option value="$PROJECT_DIR$/NYPost/src/test/java/testAndroidPhone/TestMedia.java" />
+        <option value="$PROJECT_DIR$/NYPost/src/main/java/androidPhone/Tech.java" />
+        <option value="$PROJECT_DIR$/NYPost/src/test/java/testAndroidPhone/TestTech.java" />
+        <option value="$PROJECT_DIR$/NYPost/src/main/java/androidPhone/RealEstate.java" />
+        <option value="$PROJECT_DIR$/NYPost/src/test/java/testAndroidPhone/TestRealEstate.java" />
+        <option value="$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/Controls.java" />
+        <option value="$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/TextFields.java" />
+        <option value="$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TestTextFields.java" />
+        <option value="$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TestControls.java" />
+        <option value="$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/TextView.java" />
+        <option value="$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TestTextView.java" />
       </list>
     </option>
   </component>
@@ -176,8 +212,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="234" />
+    <option name="x" value="299" />
+    <option name="y" value="23" />
     <option name="width" value="1468" />
     <option name="height" value="827" />
   </component>
@@ -256,6 +292,65 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testAndroidPhone" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MobileAutomationFrameWorkTofaelNovember2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileAutomationFrameWorkTofaelNovember2018" type="462c0819:PsiDirectoryNode" />
+              <item name="UiCatalog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MobileAutomationFrameWorkTofaelNovember2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileAutomationFrameWorkTofaelNovember2018" type="462c0819:PsiDirectoryNode" />
+              <item name="UiCatalog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MobileAutomationFrameWorkTofaelNovember2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileAutomationFrameWorkTofaelNovember2018" type="462c0819:PsiDirectoryNode" />
+              <item name="UiCatalog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MobileAutomationFrameWorkTofaelNovember2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileAutomationFrameWorkTofaelNovember2018" type="462c0819:PsiDirectoryNode" />
+              <item name="UiCatalog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MobileAutomationFrameWorkTofaelNovember2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileAutomationFrameWorkTofaelNovember2018" type="462c0819:PsiDirectoryNode" />
+              <item name="UiCatalog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="iPhone" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MobileAutomationFrameWorkTofaelNovember2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileAutomationFrameWorkTofaelNovember2018" type="462c0819:PsiDirectoryNode" />
+              <item name="UiCatalog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MobileAutomationFrameWorkTofaelNovember2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileAutomationFrameWorkTofaelNovember2018" type="462c0819:PsiDirectoryNode" />
+              <item name="UiCatalog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MobileAutomationFrameWorkTofaelNovember2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileAutomationFrameWorkTofaelNovember2018" type="462c0819:PsiDirectoryNode" />
+              <item name="UiCatalog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="iPhone" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -263,7 +358,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548559596595" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548563259759" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -372,7 +467,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="234" width="1468" height="827" extended-state="0" />
+    <frame x="299" y="23" width="1468" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17110799" />
@@ -384,12 +479,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292517" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32789117" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32789117" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3292517" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3292517" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32882273" />
@@ -437,91 +532,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/UiCatalog/src/test/resources/cataLogAppTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MobileAutomationFrameWorkTofaelNovember2018.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/PickerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TextFieldsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UiCatalog/src/test/java/ipad/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TestAlerts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/Controls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/NavigateUi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/SearchBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/Images.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/Picker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TestImages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TestWeb.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="805">
@@ -577,20 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/TextView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/TextFields.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/Alerts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -616,23 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TestButtons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -708,16 +687,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#459#460#0" expanded="true" />
             <element signature="e#509#510#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/androidPhone/Business.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -874,6 +843,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testAndroidPhone/TestMedia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/androidPhone/Media.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testAndroidPhone/TestLiving.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/androidPhone/Living.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -884,10 +883,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testAndroidPhone/TestLiving.java">
+    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testAndroidPhone/TestTech.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/androidPhone/RealEstate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/androidPhone/Tech.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/androidPhone/Business.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/Controls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/TextFields.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TestTextFields.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TestControls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testAndroidPhone/TestRealEstate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TestImages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TestAlerts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TestButtons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UiCatalog/src/main/java/iPhone/TextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UiCatalog/src/test/java/iPhone/TestTextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
