@@ -43,9 +43,7 @@ public class Buttons extends Base {
     public void checkBackgroundImage(){
         backgroundImage.click();
     }
-    public void checkGray(){
-        gray.click();
-    }
+    public void checkGray(){ gray.click(); }
     public void checkGrayButton(){
         grayButton.click();
     }
